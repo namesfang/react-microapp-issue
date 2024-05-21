@@ -1,14 +1,12 @@
 import React from 'react'
-import { Route, Routes, NavLink } from 'react-router-dom'
-
-import stylApp from './App.module.scss'
+import { Route, Routes } from 'react-router-dom'
 
 import About from './pages/About'
 import Page404 from './pages/Page404';
 
 function App() {
   return (
-    <div className={ stylApp.card }>
+    <div>
       <header>
         <h2>子应用</h2>
       </header>
